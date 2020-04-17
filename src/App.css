@@ -1,0 +1,27 @@
+#actionButton{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#memoryCard{
+  display: block;
+  width: 150px;
+  height: 150px;
+  justify-content: center;
+  align-content: center;
+  border: 2px solid blueviolet;
+  justify-content: center;
+  margin: 25px;
+  border-radius: 5px;
+}
+
+#memoryCard:hover{
+  border: 5px solid purple;
+  font-stretch: expanded;
+  font-size: 10px;
+}
+
+#userDetails{
+  margin: 30px;
+}
