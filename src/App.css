@@ -23,5 +23,21 @@
 }
 
 #userDetails{
+  background:lightgreen;
   margin: 30px;
+}
+
+#congatrulationModalContent{
+  display: block;
+  margin: 30px;
+  justify-content: left;  
+
+}
+
+h1, h2, h3, h4 {
+  font-family: cursive;
+}
+
+mark{
+  background: lightgreen;
 }

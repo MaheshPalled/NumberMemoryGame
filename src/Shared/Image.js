@@ -1,0 +1,21 @@
+ export const ImagePath =[
+    "../../assets/mario.gif",
+    "../../assets/micky3.gif",
+    "../../assets/micky2.gif",
+    "../../assets/micky1.gif",
+    "../../assets/star1.gif",
+    "../../assets/pixil.gif",
+    "../../assets/batMan.gif",
+    "../../assets/superMan.gif",
+    "../../assets/splash.gif",
+    "../../assets/hulk.gif",
+    "../../assets/spiderMan.gif",
+    "../../assets/captainAmerica.gif",
+    "../../assets/angryBird4.gif",
+    "../../assets/andgryBird3.gif",
+    "../../assets/angryBird2.gif",
+    "../../assets/panda.gif",
+    "../../assets/shark.gif",
+    "../../assets/angryBird1.gif",
+    "../../assets/angryBird.gif"
+]

@@ -61,7 +61,7 @@ class App extends Component {
       <React.Fragment>
         <Jumbotron>
           <div className="container">
-            <h4>Welcome to the Online memory game {this.state.userName}</h4>
+            <h1>Welcome to the Online memory game {this.state.userName}</h1>
           </div>
         </Jumbotron>
         <BrowserRouter>
