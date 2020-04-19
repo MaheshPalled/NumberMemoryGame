@@ -26,7 +26,9 @@ class CardCreator extends Component {
         this.gameOver = this.gameOver.bind(this);
     }
 
-
+        /*
+        ** Method to increment the level.
+        */
     setNextLevel() {
         this.setState({
             level: this.state.level + 1,
@@ -37,7 +39,9 @@ class CardCreator extends Component {
         })
         cardContent = [];
     }
-
+        /*
+        ** Method to reset the game to home page with the prompt display to collect player name.
+        */
     resetGame() {
         this.setState({
             level: 3,
@@ -47,6 +51,9 @@ class CardCreator extends Component {
         cardContent = [];
     }
 
+        /*
+        ** Method which will if all the cards are matched.
+        */
     gameOver(cardObject) {
         this.setState({
             isGameOver: cardObject.every((card) => card.isMatched === true)
@@ -92,10 +99,7 @@ class CardCreator extends Component {
                 currentLevel--;
             }
         }
-
-
         cardContent = myObject;
-        
     }
 
 
@@ -160,6 +164,10 @@ class CardCreator extends Component {
 
 
     render() {
+
+        /*
+        ** variable to iterate cardContent and create  every card.
+        */
         var showCards = cardContent.map(card => {
             if (card) {
                 return (
@@ -238,6 +246,7 @@ function CreteACard(props) {
         )
     }
 
+    //When card is open display the card value.
     return (
         <div className="container">
             <h1 className="flex-center">{props.value}</h1>

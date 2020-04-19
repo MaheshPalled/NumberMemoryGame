@@ -20,7 +20,7 @@ class App extends Component {
     this.handleModal = this.handleModal.bind(this);
   }
 
-
+  //Method to handle the display of modal to collect the palyer name.
   handleModal(event) {
     this.setState({
       modalOpen: !this.state.modalOpen,

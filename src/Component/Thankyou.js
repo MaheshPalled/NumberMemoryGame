@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { Row, Button} from 'reactstrap';
 import { Link } from "react-router-dom";
 
+
+//Component which wil create the thank you page.
 export default function Thankyou(props) {
         let myLevel = (props.location.state.level);
         console.log ("object created "+myLevel);
